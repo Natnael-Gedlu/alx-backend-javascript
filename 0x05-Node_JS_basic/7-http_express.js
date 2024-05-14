@@ -1,9 +1,12 @@
 /**
- * Creates an Express.js server that responds with different messages based on the request URL.
+ * Creates an Express.js server that responds with different
+ * messages based on the request URL.
  *
- * This script creates an Express.js server listening on port 1245. It defines two routes:
+ * This script creates an Express.js server listening on port 1245.
+ * It defines two routes:
  * - GET "/": Responds with "Hello Holberton School!".
- * - GET "/students": Asynchronously reads a CSV file specified in the command-line arguments,
+ * - GET "/students": Asynchronously reads a CSV file specified in
+ * the command-line arguments,
  *   counts the number of students, and responds with the list of students.
  */
 const express = require('express');
